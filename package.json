@@ -1,0 +1,61 @@
+{
+  "author": {
+    "name": "Malko Artem",
+    "email": "artem.malko@gmail.com",
+    "url": "https://gihub.com/artem-malko"
+  },
+  "bugs": {
+    "url": "https://github.com/artem-malko/external-svg-symbols-loader/issues"
+  },
+  "contributors": [
+    {
+      "name": "Bruno Sampaio",
+      "email": "bruno.sampaio@karify.com",
+      "url": "http://bensampaio.github.io/"
+    },
+    {
+      "name": "Malko Artem",
+      "email": "artem.malko@gmail.com",
+      "url": "https://gihub.com/artem-malko"
+    }
+  ],
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "imagemin": "5.2.2",
+    "imagemin-svgo": "5.1.0",
+    "loader-utils": "1.1.0"
+  },
+  "deprecated": false,
+  "description": "A webpack loader and plugin that generate SVG sprites out of a collection of SVG files used in your JS files",
+  "devDependencies": {
+    "eslint": "5.2.0"
+  },
+  "engines": {
+    "node": "^6.14.0 || ^8.10.0 || >=9.10.0"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "homepage": "https://github.com/artem-malko/external-svg-symbols-loader#readme",
+  "keywords": [
+    "svg",
+    "symbols",
+    "webpack",
+    "webpack-loader"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "external-svg-symbols-loader",
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/artem-malko/external-svg-symbols-loader.git"
+  },
+  "scripts": {
+    "lint": "eslint index.js lib --ext=js"
+  },
+  "version": "1.0.3"
+}
