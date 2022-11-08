@@ -23,7 +23,7 @@
     "cheerio": "0.22.0",
     "imagemin": "6.1.0",
     "imagemin-svgo": "7.0.0",
-    "loader-utils": "2.0.0"
+    "loader-utils": "2.0.3"
   },
   "deprecated": false,
   "description": "A webpack loader and plugin that generate SVG sprites out of a collection of SVG files used in your JS files",
